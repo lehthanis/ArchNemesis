@@ -1,0 +1,4 @@
+ArchNemesis
+===========
+
+My DWM configuration
