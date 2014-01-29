@@ -1,0 +1,9 @@
+*foreground: #a3a3a3
+*background: #000000
+
+Xcursor.theme:  The_Dark_Theme
+Xcursor.size:   20
+
+xterm*VT100.translations: #override <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFER0)
+xterm*VT100.translations: #override Shift <Btn1Up>: exec-formatted("firefox '%t'", PRIMARY)
+xterm*metaSendsEscape: true
