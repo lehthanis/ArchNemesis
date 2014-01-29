@@ -1,0 +1,9 @@
+out_to_console yes 
+out_to_x no
+background no
+update_interval 2
+total_run_times 0
+use_spacer none
+
+TEXT
+/┤rchNemesis | Net [${wireless_link_qual_perc wlp2s0}%] | Batt [${battery_short}] | Vol [${exec amixer get Master | egrep -o "[0-9]+%" | head -1 | egrep -o "[0-9]*"}%] | ${time %a %b %d %I:%M%P}
